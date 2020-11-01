@@ -1,0 +1,50 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 20px 1fr 20px;
+
+ 
+    >* {
+        grid-column: 2;
+        justify-self: center;
+        
+
+        &.full {
+            grid-column: 1 /-1;
+        }
+    }
+
+    .inner-box {
+        min-width: 1400px;
+        max-width: 1400px;
+        min-height: 100vh;
+    }
+
+    .page-header{
+        font-size: rem(100px);
+        font-family: caveat;
+        margin:20px 20px;
+        color: whiteSmoke;
+    }
+
+    .main-header{
+        font-size: rem(120px);
+        font-family: caveat;
+        margin:20px 20px;
+        color: azure;
+    }
+
+    @include for-narrow-layout {
+        grid-template-columns:
+            minmax(10px, 1fr) minmax(auto, $mobile-breakpoint) minmax(10px, 1fr);
+    }
+
+    @include for-normal-layout {
+        grid-template-columns:
+            minmax(10px, 1fr) minmax(auto, $narrow-breakpoint) minmax(10px, 1fr);
+    }
+
+    @include for-wide-layout {
+        grid-template-columns:
+            minmax(10px, 1fr) minmax(auto, $normal-breakpoint) minmax(10px, 1fr);
+    }
+}

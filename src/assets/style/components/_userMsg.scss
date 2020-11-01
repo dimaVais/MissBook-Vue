@@ -1,0 +1,44 @@
+.msg-box {
+    width: 450px;
+    // height: 100px;
+    background-color: whiteSmoke;
+    border: 10px solid grey;
+    border-radius: 30px;
+    position: fixed;
+    right: 700px;
+    top: 190px;
+    color: grey;
+    z-index: 10;
+
+   * {
+        margin: 5px 0px;
+        text-align:left;
+    }
+
+    .icon-box {
+        font-size: 3rem;
+    }
+
+    .data-box{
+        width: 300px;
+        justify-content:flex-start;
+    }
+
+    &.success {
+        border: 10px solid green;
+
+        h2 {
+            color: green;
+        }
+    }
+
+    &.fail {
+        border: 10px solid red;
+
+        h2 {
+            color: red;
+            margin: 5px 0px;
+        }
+    }
+
+}

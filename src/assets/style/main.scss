@@ -1,0 +1,24 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+
+// Components
+@import "components/nav.scss";
+@import "components/bookCard.scss";
+@import "components/bookDetails.scss";
+@import "components/bookFilter.scss";
+@import "components/bookList.scss";
+@import "components/userMsg.scss";
+@import "components/addBook.scss";
+
+//views
+@import "views/about.scss";
+@import "views/home.scss";
+

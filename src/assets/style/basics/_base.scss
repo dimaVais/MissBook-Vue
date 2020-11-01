@@ -1,0 +1,31 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        line-height: 1.6;
+        color: $clr5;
+    }
+
+    body {
+        font-size: rem(18px);
+        font-family: montserrat;
+        background-repeat: repeat;
+        background-image: linear-gradient(to bottom right, #4f55ec, #7579e7,#9ab3f5,#a3d8f4);
+        }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+    }
+
+    .expensive{
+        color:red
+    }
+    .cheep{
+        color:green;
+    }

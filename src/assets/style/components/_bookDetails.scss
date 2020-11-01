@@ -1,0 +1,112 @@
+.detail-box {
+    width: 1400px;
+    max-width: 1400px;
+    min-height: 300px;
+    background-color: azure;
+    color: $clr1;
+    opacity: 0.9;
+    border: solid 10px rgba(196, 172, 172, 0.7);
+    border-radius: 20px;
+    text-align: center;
+
+    .book-box {
+        width: 850px;
+        max-width: 850px;
+        min-height: 300px;
+        border-right:  solid 5px rgba(196, 172, 172, 0.7);
+        padding: 40px;
+
+    }
+
+    img {
+        min-width: 350px;
+        min-height: 300px;
+    }
+
+    .details-header {
+        font-size: rem(40px);
+    }
+
+    .on-sale {
+        width: 780px;
+        height: 80px;
+        background-color: rgb(38, 197, 38);
+        color: azure;
+        opacity: 1;
+        font-size: rem(60px);
+        position: relative;
+        border-radius: 20px;
+        font-weight: bolder;
+    }
+
+    .currency {
+        display: inline;
+    }
+
+}
+
+.review-box {
+    min-width: 480px;
+    max-width: 400px;
+    min-height: 300px;
+    color: $clr1;
+    opacity: 0.9;
+    border-radius: 20px;
+    padding: 40px;
+    text-align: center;
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .review {
+        padding: 10px;
+        background-color: whitesmoke;
+        border-top: solid 2px rgb(175, 175, 175);
+        border-bottom: solid 2px rgb(175, 175, 175);
+        width:480px;
+        margin-bottom: 10px;
+
+        * {
+            margin: 10px;
+        }
+    }
+
+    .review-form {
+        padding: 10px;
+        background-color: silver;
+        border: solid 2px white;
+        border-radius: 30px;
+        margin-bottom: 50px;
+        width: 480px;
+
+        * {
+            margin: 4px;
+        }
+
+        input,
+        select {
+            width: 130px;
+            height: 40px;
+            border-radius: 10px;
+            font-size: rem(16px);
+        }
+
+        textarea {
+            width: 260px;
+            height: 60px;
+            border-radius: 10px;
+            font-size: rem(20px);
+        }
+
+        button {
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.card-router {
+    text-decoration: none;
+}

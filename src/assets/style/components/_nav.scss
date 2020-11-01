@@ -1,0 +1,25 @@
+nav {
+    // padding: 30px;
+    width:100%;
+    background-color: rgba(55, 55, 235, 0.993);
+
+    a {
+      font-weight: bold;
+      font-size: rem(30px);
+      color:whitesmoke; 
+  
+      &.router-link-exact-active {
+        color: rgb(2, 2, 87)
+      }
+
+      span{
+        color:whitesmoke; 
+      }
+    }
+ 
+  }
+
+  .upper-box{
+    width:1400px;
+    margin: 0 auto;
+  }

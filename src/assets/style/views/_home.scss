@@ -1,0 +1,20 @@
+.main-home {
+    background-image: url('../img/home2.gif');
+    background-repeat:repeat ;
+    background-size:cover ;
+    width:1400px;
+    height: 100vh;
+    margin: 5px auto;
+    border-radius: 50px;
+
+    .main-open {
+        font-weight: bolder;
+        font-size: rem(150px);
+        text-align: center;
+        color: azure;
+        margin:0px;
+        font-family: caveat;
+        border-radius: 50px;
+
+    }
+}
