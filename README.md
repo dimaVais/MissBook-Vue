@@ -1,4 +1,4 @@
-# vue-pets
+# MissBook-Vue
 
 ## Project setup
 ```
