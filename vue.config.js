@@ -9,3 +9,5 @@
   module.exports = {
     publicPath: '/vue-missBook/'
   }
+
+  
